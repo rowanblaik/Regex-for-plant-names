@@ -1,6 +1,6 @@
 ### Regex to find common errors in plant lists
 
-The following regular expressions may be used to find errors in the formatting of plant names:
+The following regular expressions may be used to find 'patterns' of common errors in the formatting of plant lists:
 
 Pattern | Description | Regex
 --------|-------------|------
