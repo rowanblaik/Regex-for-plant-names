@@ -19,3 +19,7 @@ Pattern | Description | Regex
 `␠abc` | leading spaces | `␠\b`
 `abc␠` | trailing spaces | `\b␠`
 `abc␠␠def` | multiple whitespace | `[ ]{2,}`
+
+### Here you can find a substitution regex that normalize the incorrect plant name
+
+... 
