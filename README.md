@@ -1,6 +1,6 @@
 ### Regex for plant lists
 
-The following regular expressions may be used to find errors, or words prone to errors, in plant names:
+The following regular expressions may be used to find errors, or words prone to error, in plant names:
 
 Pattern | Description | Regex
 --------|-------------|------
