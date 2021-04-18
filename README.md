@@ -15,7 +15,7 @@ Pattern | Description | Regex
  `üé` etc. | accents and diacriticals | `[^\x00-\x7F]`
 `dens- canis` | irregular hyphenation | `[^a-z]-+\|-+[^a-z]`
 `L.c.` | non-capped initials | `\b[a-z]\.`
-`Blog's, Jones'` | possessive apostrophes (sing.) | `(\b's\|s\b')`
+`Blog's, Jones'` | possessive apostrophes | `(\b's\|s\b')`
 `␠abc` | leading whitespace | `^[^\S\r\n]+`
 `abc␠` | trailing whitepace | `[^\S\r\n]+$`
 `abc␠␠def` | multiple whitespace | `[^\S\r\n]{2,}`
