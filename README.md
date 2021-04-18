@@ -13,7 +13,7 @@ Pattern | Description | Regex
 `McA` or `MacA` | Scottish names | `\b(Mc\|Mac)[a-z]+`
 `o'D` or `d'O` | contraction apostrophe | `\w+'\w+`
  `üé` etc. | accents and diacriticals | `[^\x00-\x7F]`
-`dens- canis` | irregular hyphenation | `[^a-z]-+|-+[^a-z]`
+`dens- canis` | irregular hyphenation | `[^a-z]-+\|-+[^a-z]`
 `L.c.` | non-capped initials | `\b[a-z]\.`
 `Blog's, Jones'` | possessive apostrophes (sing.) | `(\b's\|s\b')`
 `␠abc` | leading whitespace | `^[^\S\r\n]+`
