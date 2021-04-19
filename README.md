@@ -1,4 +1,4 @@
-### Regex for plant lists
+### Regex for plant name lists
 
 The following regular expressions may be used to find errors, or words prone to error, in plant names:
 
