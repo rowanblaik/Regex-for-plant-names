@@ -17,5 +17,5 @@ Pattern | Description | Regex
 `L.c.` | non-capped initials | `\b[a-z]\.`
 `Blog's, Jones'` | possessive apostrophes | `(\b's\|s\b')`
 `␠abc` | leading whitespace | `^[^\S\r\n]+`
-`abc␠` | trailing whitepace | `[^\S\r\n]+$`
+`abc␠` | trailing whitespace | `[^\S\r\n]+$`
 `abc␠␠def` | multiple whitespace | `[^\S\r\n]{2,}`
